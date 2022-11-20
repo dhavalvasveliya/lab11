@@ -23,4 +23,4 @@ def auto_build():
     """
     This function is only for Jenkins auto build changes
     """
-    print("If you see this message it means everything is fine")
+    print("If you see this message it means webhook is working")
