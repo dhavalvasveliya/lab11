@@ -7,9 +7,12 @@ def has_letter_cases(s: str):
     Return True if and only if s contains at least one lowercase letter and at 
     least one uppercase letter.
     """
+    print("Hello")
     return not s.isupper() and not s.islower()
+ 
 
 def find_lowercase_vowel(msg: str):
+    print("Hello")
     """
     Return the index of the first lowercase vowel (a, e, i, o, u) in msg, 
     or the length of msg if it does not contain any lowercase vowels.
