@@ -11,6 +11,10 @@ class TestMain(unittest.TestCase):
 
     def test_find_lowercase_vowel(self):
         self.assertEqual(find_lowercase_vowel("cats"),1, "Should be 1")
+    
+    def jenkins_test(self):
+        expected_value = "Expected Result"
+        self.assertEqual(jenkins_test(), expected_value, "Should be the expected result")
 
 if __name__ == '__main__':
     unittest.main()
