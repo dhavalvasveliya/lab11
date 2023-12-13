@@ -19,8 +19,3 @@ def find_lowercase_vowel(msg: str):
             return index
     return len(msg)
 
-def auto_build():
-    """
-    This function is only for Jenkins auto build changes
-    """
-    print("If you see this message it means webhook is working")
